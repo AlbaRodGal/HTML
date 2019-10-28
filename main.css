@@ -1,0 +1,44 @@
+html {
+    background-color: darkblue;
+}
+body {
+    width: 60%;
+    background-color: green;
+    border: 5px solid black;
+    margin:0 auto;
+}
+img {
+    border: 20px groove gold;
+    border-radius: 70%;
+    display: block;
+    margin:30px auto 0;
+
+}
+#primary {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: normal ;
+    color: mediumblue;
+    margin-left: 20px;
+    margin-right: 30px;
+
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+#secondary {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: rgb(95, 3, 3);
+    margin-left: 20px;
+    margin-right: 30px;
+
+
+}
