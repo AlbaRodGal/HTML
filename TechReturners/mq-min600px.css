@@ -1,0 +1,15 @@
+ul{
+    display:inline;
+    height: 160px;
+}
+
+a{ 
+    margin:20px;
+    height: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+img{
+    padding: 30px;
+}

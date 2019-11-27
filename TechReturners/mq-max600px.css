@@ -1,0 +1,22 @@
+ul{
+    display:flex;
+    flex-flow:row nowrap;
+    height: 35px;
+    flex-shrink: initial;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    height: 10px;
+    width: 10px;
+    margin: 10px;
+}
+
+img{
+    padding:10px;
+}
