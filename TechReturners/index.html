@@ -6,34 +6,42 @@
         <link href="main.css" rel="stylesheet">
         <link href="mq-max600px.css" rel="stylesheet" media="(max-width:600px)">
         <link href="mq-min600px.css" rel="stylesheet" media="(min-width:600px)">
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 
     </head>
     <body>
         <header>
-            <h1 class="web-title">Alba Rodríguez</h1>
+            <h1><a href="Resume.html">Alba Rodríguez</a></h1>
+            <h3>Software Developer</h3>
             <nav>
-                <ul class="navigation">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Portfolio</a></li>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
                     <li><a href="Journal.html">Journal</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">Inspiration</a></li>
-                    <li><a href="">Resume</a></li>
+                    <li><a href="Community.html">Community</a></li>
+                    <li><a href="Inspiration.html">Inspiration</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
                     <li><a href="">About</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <div class="intro">
-                <img src="./Images/woman.jpg" alt="picture">
-                <h2 class="article-title">Hello & Welcome</h2>
-                    <p>This is a little space, where I'll share with you my work, 
-                    experience, thoughts and all kind of useful tips for anyone trying to get into Tech or be more productive. </p>
-            </div>
+            <section id="Homepage1"><a href="Resume.html"></a></section>
+            <section id="Homepage2"><a href="Portfolio.html">Python</a></section>
+            <section id="Homepage3"><a href="Journal.html">Agile</a></section>
+            <section id="Homepage4"><a href="Community.html">Meet-ups</a></section>
         </main>
     </body>
     <footer>
-        <p>Created by Alba Rodríguez</p>
+        <h1 class="contact"> Get in touch!</h1>
+        <div>
+        <form>
+            <div class="form">
+            <input class="name" type="text" name="name" id="name" value="Name">
+            <input class="email" type="text" name="e-mail address" id="e-mail address" value="E-mail address">
+            <input class="message" type="text" name="your message" id="your message" value="Your message">
+        </div>
+        </form>
+        <button type="button">Send</button>
+    </div>
     </footer>
 </html>

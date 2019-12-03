@@ -1,95 +1,72 @@
-html, header, ul, body, main, footer, nav, div, a{
+html, header, ul, body, main, footer, nav, div, a, section{
     border:0;
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+
 }
 
-ul{
+nav a:hover{
+    font-weight: bold;
+
+}
+
+a {
     text-decoration: none;
     list-style-type: none;
-    
-}
-
-.web-title{
-    width: 200px;
-    height: 50px;
-    background-color: white;
-    position: fixed;
-    top: 10px;
-    left: 5px;
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
-    font-family: dancing script;
-}
-
-.navigation {
-    display: flex;
-    flex-flow: column nowrap;
-    position: fixed;
-    top: 120px;
-    left:10px;
-    background-color: white;
-    width: fit-content;
-    height: fit-content;
-    text-align: justify;
-    padding: 0 10px;
-
-}
-
-body{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}
-
-a{ 
-    display: flex;
-    text-decoration: none;
     color: black;
-    font-size: 1.5rem;
-    font-family: dancing script;
-    text-align: justify;
-    padding: 15px;
-
 }
-
 
 p{
     display: flex;
     text-align: justify;
 }
 
-img{
-    width: 60%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #00000030;
-}
-article{
-    width:800px;
-    height: fit-content;
-    background-color: white;
-    line-height: 1.8;
-    border-left: 1px dashed gray;
+
+#Homepage2, #Homepage3, #Homepage4 {
+    font-size: 5rem;
+    margin: 3px;
+    padding: 3px;
+    background-size: cover;
+    opacity: 0.5;
 }
 
-.intro{
-    position: absolute;
-    top: 120px;
-    left:200px;
-    text-align: center;
+#Homepage1{
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#Homepage2:hover{
+    color:white;
+    font-size: 6rem;
+    font-weight: bold;
+    opacity: 1;
+}
+#Homepage3:hover{
+    color:white;
+    font-size: 6rem;
+    font-weight: bold;
+    opacity: 1;
+}
 
-footer{
-    width: fit-content;
-    height: fit-content;
-    position:absolute;
-    text-align: center;
-    bottom:0px;
-    left:700px;
-    font-size: 0.7rem;
-    background: white;
+#Homepage4:hover{
+    color:white;
+    font-size: 6rem;
+    font-weight: bold;
+    opacity: 1;
+}
+#Homepage1{
+    background-image: url("../../../Downloads/yury-orlov-IF_ybK5uBP0-unsplash.jpg");
+}
+
+#Homepage2{
+    background-image: url("../../../Downloads/william-iven-qhhrsA4_Vpo-unsplash.jpg");
+}
+
+#Homepage3{
+    background-image: url("../../../Downloads/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg");
+}
+
+#Homepage4{
+    background-image: url("../../../Documents/Screenshot\ 2019-12-02\ at\ 18.48.59.png");
 }
