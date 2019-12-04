@@ -8,7 +8,6 @@ html, header, ul, body, main, footer, nav, div, a, section{
 
 nav a:hover{
     font-weight: bold;
-
 }
 
 a {
@@ -22,8 +21,7 @@ p{
     text-align: justify;
 }
 
-
-#Homepage2, #Homepage3, #Homepage4 {
+#Homepage2, #Homepage3, #Homepage4{
     font-size: 5rem;
     margin: 3px;
     padding: 3px;
@@ -36,37 +34,39 @@ p{
     background-size: cover;
 }
 
-#Homepage2:hover{
-    color:white;
-    font-size: 6rem;
-    font-weight: bold;
-    opacity: 1;
-}
-#Homepage3:hover{
-    color:white;
+#Homepage2:hover, #Homepage3:hover, #Homepage4:hover{
     font-size: 6rem;
     font-weight: bold;
     opacity: 1;
 }
 
-#Homepage4:hover{
-    color:white;
-    font-size: 6rem;
-    font-weight: bold;
-    opacity: 1;
-}
 #Homepage1{
     background-image: url("../../../Downloads/yury-orlov-IF_ybK5uBP0-unsplash.jpg");
 }
 
-#Homepage2{
+#Homepage2, #portfolio-aside{
     background-image: url("../../../Downloads/william-iven-qhhrsA4_Vpo-unsplash.jpg");
 }
 
-#Homepage3{
+#Homepage3, #journal-aside{
     background-image: url("../../../Downloads/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg");
 }
 
-#Homepage4{
+#Homepage4, #community-aside{
     background-image: url("../../../Documents/Screenshot\ 2019-12-02\ at\ 18.48.59.png");
+}
+th, td{
+    border: 1px solid lightseagreen;
+    background-color: rgba(8, 167, 195, 0.132);  
+    text-align: center;
+
+      
+}
+th{
+    background-color: rgba(8, 167, 195, 0.322);
+    border: 1px solid lightseagreen;
+}
+
+table{
+    margin: 0 auto;
 }
